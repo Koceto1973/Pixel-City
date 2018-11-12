@@ -56,6 +56,9 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="frB-PU-cKz">
                                 <rect key="frame" x="0.0" y="667" width="375" height="0.0"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" id="wtc-RW-T1I"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -70,14 +73,21 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FwM-Xw-LYf" secondAttribute="bottom" id="lUe-aM-d6V"/>
                             <constraint firstItem="FwM-Xw-LYf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="oFJ-K8-tMt"/>
                             <constraint firstItem="frB-PU-cKz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oJJ-1a-nnD"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bOs-i0-UEm" secondAttribute="bottom" constant="20" id="qeF-hy-PLE"/>
+                            <constraint firstItem="FwM-Xw-LYf" firstAttribute="bottom" secondItem="bOs-i0-UEm" secondAttribute="bottom" constant="20" id="qeF-hy-PLE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FwM-Xw-LYf" secondAttribute="trailing" id="sgK-pJ-WN0"/>
                             <constraint firstItem="biX-Lt-lxr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="zFg-gJ-fkb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="lUe-aM-d6V"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="mapView" destination="FwM-Xw-LYf" id="je9-Ra-RWo"/>
+                        <outlet property="pullUpView" destination="frB-PU-cKz" id="sx6-QY-oxz"/>
+                        <outlet property="pullUpViewHeightConstraint" destination="wtc-RW-T1I" id="mMy-ij-I6b"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
