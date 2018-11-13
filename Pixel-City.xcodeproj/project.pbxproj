@@ -13,6 +13,7 @@
 		357CA75A219861FE00710889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357CA759219861FE00710889 /* Assets.xcassets */; };
 		357CA75D219861FE00710889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357CA75B219861FE00710889 /* LaunchScreen.storyboard */; };
 		35F6820E2199215500C44F88 /* DropablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6820D2199215500C44F88 /* DropablePin.swift */; };
+		35F68210219A4D1400C44F88 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6820F219A4D1400C44F88 /* PhotoCell.swift */; };
 		CE2AB6E9DD28C58011B2F1AB /* Pods_Pixel_City.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F328E08DFAFE2A240FA5DD1A /* Pods_Pixel_City.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		357CA75C219861FE00710889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		357CA75E219861FE00710889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35F6820D2199215500C44F88 /* DropablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropablePin.swift; sourceTree = "<group>"; };
+		35F6820F219A4D1400C44F88 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		5A5DFF4DB2F93BE051F8F586 /* Pods-Pixel-City.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixel-City.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pixel-City/Pods-Pixel-City.debug.xcconfig"; sourceTree = "<group>"; };
 		F328E08DFAFE2A240FA5DD1A /* Pods_Pixel_City.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pixel_City.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5C917D20A9AB2A7F0F7AF0 /* Pods-Pixel-City.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixel-City.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pixel-City/Pods-Pixel-City.release.xcconfig"; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				35F6820D2199215500C44F88 /* DropablePin.swift */,
+				35F6820F219A4D1400C44F88 /* PhotoCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			files = (
 				357CA755219861FC00710889 /* MapVC.swift in Sources */,
 				35F6820E2199215500C44F88 /* DropablePin.swift in Sources */,
+				35F68210219A4D1400C44F88 /* PhotoCell.swift in Sources */,
 				357CA753219861FC00710889 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
