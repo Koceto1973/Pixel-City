@@ -43,7 +43,7 @@ class MapVC: UIViewController, UIGestureRecognizerDelegate  {
         collectionView?.register(PhotoCell.self, forCellWithReuseIdentifier: "photoCell")
         collectionView?.delegate = self
         collectionView?.dataSource = self
-        collectionView?.backgroundColor = #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1)
+        collectionView?.backgroundColor = #colorLiteral(red: 0.4666666687, green: 0.7647058964, blue: 0.2666666806, alpha: 1)
         //registerForPreviewing(with: self, sourceView: collectionView!)
         pullUpView.addSubview(collectionView!)
     }
